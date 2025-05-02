@@ -11,7 +11,7 @@ def train_species(
     species_list=None,
     batch_size: int = 32,
     val_split: float = 0.2,
-    epochs: int = 40,
+    epochs: int = 40, 
     lr: float = 1e-4,
     model_save_path: str = "saved_models/species_model.pth"
 ):
