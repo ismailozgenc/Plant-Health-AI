@@ -28,7 +28,6 @@ def visualize_species_performance(
         transforms.Normalize(mean=[0.485,0.456,0.406], std=[0.229,0.224,0.225])
     ])
 
-
     dataset = PlantDataset(
         root_dir=data_root,
         species_list=species_list,
@@ -93,7 +92,6 @@ def visualize_species_performance(
     plt.close()
 
     print(f"Saved per-class accuracy and confusion matrix to '{output_dir}/'")
-
 
 if __name__ == '__main__':
     species_list = ['Apple', 'Corn', 'Grape', 'Peach', 'Pepper', 'Potato', 'Strawberry', 'Tomato']
