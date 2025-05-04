@@ -41,3 +41,6 @@ results/cm_SVM_Pepper.png
 results/cm_SVM_Potato.png
 results/cm_SVM_Strawberry.png
 results/cm_SVM_Tomato.png
+tests/executable.spec
+tests/build/
+tests/dist/
