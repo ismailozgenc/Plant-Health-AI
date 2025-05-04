@@ -5,7 +5,6 @@ import os
 os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
 import sys
 print('\n', sys.path, '\n')
-
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../src')))
 import torch
 from utils import load_model
