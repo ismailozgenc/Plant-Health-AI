@@ -3,7 +3,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 
 class SpeciesCNN(nn.Module):
-    def __init__(self, num_classes: int = 10):
+    def __init__(self, num_classes: int = 8):
         super().__init__()
         self.conv1 = nn.Conv2d(3, 32, kernel_size=3, padding=1)  # input RGB
         self.bn1   = nn.BatchNorm2d(32)
