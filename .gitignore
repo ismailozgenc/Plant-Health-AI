@@ -1,0 +1,6 @@
+src/__pycache__/
+.history/
+src/models/__pycache__/
+tests/executable.spec
+tests/build/
+tests/dist/
